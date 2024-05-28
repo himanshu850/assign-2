@@ -11,8 +11,8 @@ let dataCollection = null;
 
 async function initialize() {
     try {
-        const studentsData = await fs.readFile('./data/students.json', 'utf-8');
-        const coursesData = await fs.readFile('./data/courses.json', 'utf-8');
+        const studentsData = await fs.readFile('../data/students.json', 'utf-8');
+        const coursesData = await fs.readFile('../data/courses.json', 'utf-8');
 
         const students = JSON.parse(studentsData);
         const courses = JSON.parse(coursesData);

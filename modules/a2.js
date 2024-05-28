@@ -8,7 +8,7 @@
 *
 ********************************************************************************/ 
 
-const collegeData = require('.\modules\collegeData.js');
+const collegeData = require('./collegeData.js');
 
 collegeData.initialize()
     .then(() => {
